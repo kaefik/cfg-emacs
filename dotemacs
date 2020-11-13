@@ -1,3 +1,4 @@
+;; Начало конфигурации для того чтобы хоткеи емакса работали на русской раскладке
 ;; Это надо добавить ближе к началу .emacs
 (defun cfg:reverse-input-method (input-method)
   "Build the reverse mapping of single letters from INPUT-METHOD."
@@ -26,8 +27,12 @@
 (load "~/.emacs.d/packages.el")
 (load "~/.emacs.d/main.el")
 (load "~/.emacs.d/python.el")
+;;(load "~/.emacs.d/ergoemacs.el")
+;;(load "~/.emacs.d/anaconda-mode.el")
+(load "~/.emacs.d/rushotkey.el")
 
 
 
+;; конец конфигурации для того чтобы хоткеи емакса работали на русской
 ;; А вот эта строка должна быть в самом конце
 (cfg:reverse-input-method 'russian-computer)

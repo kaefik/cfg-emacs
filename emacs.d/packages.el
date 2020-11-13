@@ -13,9 +13,16 @@
     emmet-mode
     ergoemacs-mode
     flycheck
+    helm
+    flycheck-pos-tip
+    neotree
+    python-mode
+    pyvenv
+    virtualenvwrapper                       
     powerline
     py-autopep8
     py-isort
+    pip-requirements                       
     web-mode
     yasnippet
     ))
