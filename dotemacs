@@ -29,7 +29,7 @@
 (load "~/.emacs.d/python.el")
 ;;(load "~/.emacs.d/ergoemacs.el")
 ;;(load "~/.emacs.d/anaconda-mode.el")
-(load "~/.emacs.d/rushotkey.el")
+;;(load "~/.emacs.d/rushotkey.el")
 
 
 

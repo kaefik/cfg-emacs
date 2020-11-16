@@ -1,30 +1,19 @@
 (require 'cl)
 (require 'package)
+(require 'ido)
+
+;; активируем пакет ido
+(ido-mode t)
 
 ;; Список пакетов для установки, на самом деле у меня их под 50 штук, но смысл
 ;; публиковать их здесь?
 
 (defvar cfg-var:packages '(
-    anaconda-mode
-    company
-    company-anaconda
-    company-quickhelp
-    company-web
-    emmet-mode
-    ergoemacs-mode
-    flycheck
-    helm
-    flycheck-pos-tip
-    neotree
-    python-mode
-    pyvenv
-    virtualenvwrapper                       
-    powerline
-    py-autopep8
-    py-isort
-    pip-requirements                       
-    web-mode
-    yasnippet
+                           ;;auto-complete
+                           elpy
+                           ;;autopair
+                           ;;flycheck
+                           ;;jedi
     ))
 
 (defun cfg:install-packages ()
@@ -43,3 +32,4 @@
 (package-initialize)
 
 (cfg:install-packages)
+
